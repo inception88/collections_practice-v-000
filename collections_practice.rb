@@ -44,7 +44,9 @@ def find_a(array)
   new_array
 end
 
-def 
+def sum_array(array)
+  
+end
 
 #array = ["Ben", "Nat", "Derrick", "Jai", "April"]
 
