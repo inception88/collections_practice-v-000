@@ -44,6 +44,8 @@ def find_a(array)
   new_array
 end
 
+def 
+
 #array = ["Ben", "Nat", "Derrick", "Jai", "April"]
 
 # def swap_elements_from_to(array,index,destination)
