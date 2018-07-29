@@ -37,7 +37,7 @@ end
 
 def find_a(array)
     new_array = []
-  array.each {|a| if a.scan(/\Aa/) == 'a'
+  array.each {|a| if a.scan(/\Aa/)
     new_array << a
   end
   }
