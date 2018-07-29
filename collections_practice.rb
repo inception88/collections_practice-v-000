@@ -50,7 +50,7 @@ end
 
 def add_s(array)
  new_array = []
- array.each_with_index.collect{|element, index| if index = 1 
+ array.each_with_index.collect{|element, index| if index == 1 
  new_array << element
  else
    new_array << "#{element}s"
