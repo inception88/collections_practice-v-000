@@ -48,6 +48,10 @@ def sum_array(array)
   array.inject {|sum, n| sum + n}
 end
 
+def add_s(array)
+  array.collect {|word| if array[1] new_array << words
+end
+
 #array = ["Ben", "Nat", "Derrick", "Jai", "April"]
 
 # def swap_elements_from_to(array,index,destination)
