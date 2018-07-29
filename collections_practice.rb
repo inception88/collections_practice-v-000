@@ -49,7 +49,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect {|word| if array[1] new_array << words
+ array.each_with_index.collect{|element, index| if index = 1 
+ else
+   new_array << element
+ }
+ new_array
 end
 
 #array = ["Ben", "Nat", "Derrick", "Jai", "April"]
